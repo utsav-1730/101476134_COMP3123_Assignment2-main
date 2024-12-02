@@ -1,0 +1,159 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+div {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input,
+form button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+form input {
+  border: 1px solid #ddd;
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:first-child {
+  background-color: #ffc107;
+}
+
+button:first-child:hover {
+  background-color: #e0a800;
+}
+
+button:last-child {
+  background-color: #dc3545;
+}
+
+button:last-child:hover {
+  background-color: #b02a37;
+}
+
+/* Add Employee Button */
+.add-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+/* Logout Button */
+.logout-button {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.logout-button:hover {
+  background-color: #ff1a1a;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 600px) {
+  div {
+    padding: 15px;
+  }
+
+  table th, table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .add-button,
+  .logout-button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  /* Stack table buttons vertically on small screens */
+  button {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
